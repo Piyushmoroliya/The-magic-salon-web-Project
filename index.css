@@ -554,7 +554,7 @@ body {
 
     .cta-button {
         padding: 12px 30px;
-        font-size: 0.95rem;       
+        font-size: 0.95rem;
         width: 280px;
         height: 80px;
     }
@@ -670,7 +670,7 @@ body {
 .service-title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
+    color: black;
     margin-bottom: 15px;
     position: relative;
     z-index: 2;
@@ -1355,8 +1355,9 @@ body {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .section-subtitle {
     color: #ddd;
     text-align: center;
@@ -1370,12 +1371,14 @@ body {
     padding: 60px 20px;
     background-color: #2b2f36;
 }
+
 .team-members {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
 }
+
 .team-card {
     width: 300px;
     background-color: #393e465e;
@@ -1385,42 +1388,51 @@ body {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .team-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
+
 .team-image {
     width: 100%;
     height: 350px;
     overflow: hidden;
 }
+
 .team-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.4s ease;
 }
+
 .team-card:hover img {
     transform: scale(1.1);
 }
+
 .team-info {
     padding: 15px;
     text-align: center;
     color: white;
 }
+
 .team-info h3 {
     font-size: 1.5rem;
     margin-bottom: 8px;
 }
+
 .experience {
     font-size: 0.9rem;
     color: #ffeb3b;
 }
+
 .specialty {
     font-style: italic;
     margin: 6px 0;
     color: #ddd;
 }
+
 .phone {
     font-size: 0.9rem;
 }
@@ -1431,6 +1443,7 @@ body {
     padding: 60px 20px;
     background-color: #1f2227;
 }
+
 .contact-info-box {
     max-width: 700px;
     margin: auto;
@@ -1442,25 +1455,30 @@ body {
     color: white;
     text-align: center;
 }
+
 .contact-info-box h3 {
     color: #ffeb3b;
     margin-bottom: 15px;
 }
+
 .contact-info-box p {
     font-size: 1rem;
     margin-bottom: 10px;
 }
+
 .social-icons {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .social-icons img {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
 }
+
 .social-icons img:hover {
     transform: scale(1.2);
 }
